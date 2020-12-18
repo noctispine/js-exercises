@@ -16,7 +16,6 @@ function sum(...numbers) {
   let sum = 0;
   for(let number of numbers) {
     sum += number;
-    console.log(number);
   }
 
   return sum;
