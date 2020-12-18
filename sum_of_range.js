@@ -1,6 +1,6 @@
 function range(start, end, step) {
   let arr = [];
-  for(let i = start; i != end + step; i += step)
+  for(let i = start; i <= end; i += step)
     arr.push(i);
     
   return arr;
@@ -16,4 +16,4 @@ function sum(...numbers) {
   return sum;
 }
 
-console.log(sum(...range(10, 5, -1)));
+console.log(sum(...range(1, 10, 2)));
